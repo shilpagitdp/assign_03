@@ -13,8 +13,8 @@ namespace Assignment_03
         {
             try
             {
-                string connection = @"Data Source=INLPF3KTP43\MSSQLSERVER1;Initial Catalog=mukesh;trusted_connection=true";
-                SqlConnection con = new SqlConnection(connection);
+                string ConnectionStr = "Data Source=INLPF2KZ387\\MSSQLSERVER1;initial catalog=Ivy;trusted_connection=true";
+            SqlConnection sqlconn = new SqlConnection(ConnectionStr);
                 con.Open();
 
                 Console.WriteLine("Enter The Choice");
